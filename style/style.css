@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: rgb(224, 224, 224);
+}
+#header {
+    width: 100%;
+}
+nav {
+    text-align: center;
+    margin-top: -0.25rem;
+    line-height: 5rem;
+    background-color: rgb(158, 158, 158);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    padding: 1rem;
+    font-size: 2rem;
+    border: black 0.001rem solid;
+    margin-bottom: 1rem;
+}
+nav a:hover {
+    background-color: rgb(156, 156, 156);
+}
+#active {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 1rem;
+    font-size: 2rem;
+    border: black 0.001rem solid;
+}
+.gamediv {
+    background-color: white;
+    text-align: center;
+    float: left;
+    border: grey 0.001rem solid;
+    width: 20rem;
+    height: 20rem;
+}
+.gamediv:hover {
+    cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 1px grey;
+}
+.gamediv img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+#gamedivdiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 21rem;
+    max-height: 21rem;
+}
+
+.planningdiv {
+    background-color: white;
+    text-align: center;
+    float: left;
+    border: grey 0.001rem solid;
+    width: 20rem;
+    height: 25rem;
+}
+.planningdiv:hover {
+    cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 1px grey;
+}
+.planningdiv img{
+    max-width: 19.9rem;
+    max-height: 20rem;
+    margin: 0 auto;
+}
+#planningdivdiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 21rem;
+    max-height: 21rem;
+}
+#planningdivtitle {
+    font-size: 1rem;
+}
+.seemoreP{
+    background-color: white;
+    text-align: center;
+    float: left;
+    border: grey 0.001rem solid;
+    width: 12rem;
+    height: 25rem;
+}
+.seemoreP:hover {
+    cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 1px grey;
+}
+.seemoreP a {
+    font-size: 1.5rem;
+    line-height: 20rem;
+    text-decoration: none;
+    color: black;
+}
+.seemoreP:hover > a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.seemore{
+    background-color: white;
+    text-align: center;
+    float: left;
+    border: grey 0.001rem solid;
+    width: 12rem;
+    height: 20rem;
+}
+.seemore:hover {
+    cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 1px grey;
+}
+.seemore a {
+    font-size: 1.5rem;
+    line-height: 20rem;
+    text-decoration: none;
+    color: black;
+}
+.seemore:hover > a{
+    color: grey;
+    text-decoration: underline;
+}
+#allGamesdiv {
+    width: 85.5%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+#allPlansdiv {
+    width: 85.5%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.allGameDiv {
+    background-color: white;
+    text-align: center;
+    float: left;
+    border: grey 0.001rem solid;
+    width: 20rem;
+    height: 20rem;
+    margin: 0.1rem;
+}
+.allGameDiv:hover {
+    cursor: pointer;
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 1px grey;
+}
+.allGameDiv img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+#singleGameDiv {
+    box-sizing: border-box;
+    padding: 0 5rem;
+    width: 90%;
+    min-height: 60rem;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+#singeGameDescriptionDiv p {
+    font-size: 1.5rem;
+}
+#singeGameDescriptionDiv {
+    float: right;
+    width: 50%;
+    height: 50rem;
+}
+#gameTitleDiv {
+    width: 100%;
+    height: 5.5rem;
+}
+#gameTitleDiv a {
+    line-height: 5.5rem;
+}
+iframe{
+    margin-top: 8rem;
+}
+#darkBackground{
+    background-color: rgb(39, 39, 39);
+}
+#title {
+    color: black;
+    text-decoration: none;
+    width: 60%;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+}
+#title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(59, 59, 59);
+}
+
+#titleP {
+    color: black;
+    text-decoration: none;
+    width: 60%;
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+#titleP:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(59, 59, 59);
+}
+
+#singleGameImg {
+    margin: auto;
+    max-width: 30rem;
+    max-height: 30rem;
+}
+#singleGameImgEmptySpace {
+    width: 30rem;
+    height: 30rem;
+    font-size: 5rem;
+    line-height: 30rem;
+}
+#addGameLink a {
+    color: black;
+    text-decoration: none;
+    line-height: 10rem;
+    font-size: 2rem;
+}
+#addGameLink i {
+    color: green;
+}
+#addGameLink {
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+}
+#addGameLink a:hover {
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+}
+#singleGameImgDiv {
+    text-align: center;
+    border: grey 1px solid;
+    width: 30rem;
+    height: 30rem;
+    float: left;
+}
+.card {
+    margin-top: 0.05rem;
+    border: grey 1px solid;
+    width: 30rem;
+    min-height: 5rem;
+    text-align: left;
+}
+.card a{
+    font-size: 1.25rem;
+}
+#editRemoveDiv{
+    text-align: right;
+}
+#editRemoveDiv a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+#editRemoveDiv a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+input {
+    padding: 0.1rem;
+    width: 20rem;
+}
+select {
+    padding: 0.1rem;
+    width: 20rem;
+}
+#editDiv, #newGameDiv, #newPlansDiv {
+    width: 60%;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 1%;
+    box-sizing: border-box;
+}
+#newGameDiv h1, #editDiv h1, #newPlansDiv h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+#newPlansDiv {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+}
+#newPlansDiv h1 {
+    margin-bottom: 10%;
+}
+#removeGameDiv {
+    text-align: center;
+    padding-top: 5rem;
+    align-content: center;
+}
+#removeBtn {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2.5rem;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+#removeBtn:hover {
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+#alert {
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: rgb(255, 174, 0);
+}
+#peopleDiv{
+    margin-left: 1rem;
+    float: left;
+    width: 16rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
