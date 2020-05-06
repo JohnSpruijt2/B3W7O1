@@ -16,7 +16,8 @@
 <div id="planningdivdiv">
     <h1>Planning</h1>
     <?php  $result = getFivePlans($conn);
-    foreach ($result as $data) {
+    if ($result != null) {
+        foreach ($result as $data) {
         $result2 = plansGetID($conn,$data["game"]); foreach ($result2 as $data2) {
     ?>
     <button onclick='redirectPID(<?php echo $data["ID"]; ?>)' class='planningdiv'>
@@ -26,6 +27,17 @@
 
     <?php
         }
+    }
+    ?>
+    
+    <?php
+    } else {
+        ?>
+        <button onclick='' class='planningdiv'>
+    <img src="" alt="Niks op de planning">
+    <a id="planningdivtitle"></a>
+
+        <?php
     }
     ?>
     <button onclick="redirect('planning')" class="seemoreP"><a>Bekijk meer <i class="fas fa-arrow-circle-right"></i></a></button>
